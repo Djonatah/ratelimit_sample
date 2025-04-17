@@ -10,4 +10,9 @@ public class TestController {
     public String test(String msg) {
         return "testing  " + msg;
     }
+
+    @GetMapping("/aux")
+    public String aux(String msg) {
+        return "aux  " + msg;
+    }
 }
